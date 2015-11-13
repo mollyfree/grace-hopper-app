@@ -1,0 +1,29 @@
+INTERVIEW TIPS:
+ 
+There are five questions and you will have 75 minutes to complete the entire coding interview. If you are comfortable with the interview prep work, this should be plenty of time.
+Use your time carefully. It's OK to skip a question and come back to it if are stuck after spending 10 minutes on it.
+Use JavaScript or Ruby if possible. If you aren't familiar with JS or Ruby, any other language or pseudo-code is also acceptable.
+Comment your code if you can't get the tests to pass. Good comments help us understand your thought process at various steps. 
+If you write pseudo-code, make sure it is in code-form (not like an essay), and that you are clear about what steps your program would take.
+You can always email us at hello@gracehopper.com if you need help using the system.
+ 
+For problems that ask you to print to the screen:
+ 
+In Ruby, you can use print or puts
+In JavaScript, use console.log
+
+
+
+
+#My answer to this challenge:
+given an integer start_num, print a countdown from start_num to 1. After the countdown is up, print Liftoff!
+
+def  liftoff_countdown( start_num) 
+    puts start_num
+    if start_num > 1
+        return liftoff_countdown(start_num - 1)
+    else
+        puts "Liftoff!"
+    end
+end
+
